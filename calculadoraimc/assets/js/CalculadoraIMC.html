@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Índice de Massa Corporal (IMC)</h1>
+
+<p>O Índice de Massa Corporal (IMC) é uma medida que relaciona o peso e a altura de uma pessoa para avaliar se ela está dentro de uma faixa considerada saudável.</p>
+
+<h2>Classificação do IMC:</h2>
+
+<ul>
+  <li>Menor que 18,5: abaixo do peso</li>
+  <li>Entre 18,5 e 24,9: Peso normal</li>
+  <li>Entre 25,0 e 29,9: Sobrepeso</li>
+  <li>Entre 30,0 e 34,9: Obesidade grau I</li>
+  <li>Entre 35,0 e 39,9: Obesidade grau II</li>
+  <li>Maior que 40,0: Obesidade grau III (obesidade mórbida)</li>
+</ul>
+
+
+    <form action="">
+   <label for="input-altura"> Digite sua altura:</label>
+   <input type="number" id="input-altura">
+
+   <label for="input-peso">Digite seu peso:</label>
+   <input type="number" id="input-peso">
+
+   <button onclick="RealizarCalculo()">Verificar meu imc</button>
+    <h2> Seu índice de massa corporal (IMC) atual é :</h2>
+    <p id="resultado-imc"></p>
+    <p id="classificacao-imc"></p>
+
+   </section>
+    </form>
+    <script src="./calculo.js"></script>
+    
+
+    
+</body>
+</html>
