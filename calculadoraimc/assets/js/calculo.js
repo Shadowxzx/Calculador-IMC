@@ -26,7 +26,7 @@ function RealizarCalculo() {
     } else if (imc >= 40) {
       classificacaoIMC.textContent = "Classificação: De acordo com seu índice IMC, você está com obesidade grave nivel 2 ";
     } else {
-      classificacaoIMC.textContent = "Classificação: Você não inseriu um número válido";
+      classificacaoIMC.textContent = "Classificação: Você não inseriu um número válido, tente novamente !";
     }
   }
   
